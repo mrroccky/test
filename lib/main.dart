@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
             InkWell(
               onTap: (() => _launchURL(context: context, uri: gitHub)),
               child: CircularImageWidget(
-                  radius: 72, borderredius: 70, image: "profile.png"),
+                  radius: 72, borderredius: 70, image: "assets/profile.png"),
             ),
             const Text("@mrroccky"),
             const SizedBox(
@@ -49,19 +49,19 @@ class MyApp extends StatelessWidget {
                 InkWell(
                   onTap: (() => _launchURL(context: context, uri: whatsapp)),
                   child: CircularImageWidget(
-                      radius: 20, borderredius: 18, image: "w.png"),
+                      radius: 20, borderredius: 18, image: "assets/w.png"),
                 ),
                 //todo facebook button
                 InkWell(
                   onTap: (() => _launchURL(context: context, uri: facebook)),
                   child: CircularImageWidget(
-                      radius: 18, borderredius: 16, image: "f.png"),
+                      radius: 18, borderredius: 16, image: "assets/f.png"),
                 ),
                 //todo teligram button
                 InkWell(
                   onTap: (() => _launchURL(context: context, uri: teligram)),
                   child: CircularImageWidget(
-                      radius: 20, borderredius: 18, image: "t.png"),
+                      radius: 20, borderredius: 18, image: "assets/t.png"),
                 ),
                 //todo tweeter button
                 InkWell(
@@ -73,7 +73,7 @@ class MyApp extends StatelessWidget {
                 InkWell(
                   onTap: (() => _launchURL(context: context, uri: instagram)),
                   child: CircularImageWidget(
-                      radius: 18, borderredius: 16, image: "i.png"),
+                      radius: 18, borderredius: 16, image: "assets/i.png"),
                 ),
                 //todo linkedIn button
                 InkWell(
@@ -81,7 +81,7 @@ class MyApp extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.only(left: 5),
                     child: CircularImageWidget(
-                        radius: 18, borderredius: 16, image: "li.png"),
+                        radius: 18, borderredius: 16, image: "assets/li.png"),
                   ),
                 ),
                 //todo youtube button
@@ -90,7 +90,9 @@ class MyApp extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.only(left: 5),
                     child: CircularImageWidget(
-                        radius: 18, borderredius: 16, image: "youtube.png"),
+                        radius: 18,
+                        borderredius: 16,
+                        image: "assets/youtube.png"),
                   ),
                 ),
               ],
