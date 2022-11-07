@@ -67,7 +67,7 @@ class MyApp extends StatelessWidget {
                 InkWell(
                   onTap: (() => _launchURL(context: context, uri: tweeter)),
                   child: CircularImageWidget(
-                      radius: 18, borderredius: 16, image: "twe.png"),
+                      radius: 18, borderredius: 16, image: "assets/twe.png"),
                 ),
                 //todo instagram button
                 InkWell(
